@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--# Author      : Weblytic Labs Pvt. Ltd. (<https://store.weblyticlabs.com/>)-->
+<!--# Copyright(c): 2023-Present Weblytic Labs Pvt. Ltd.-->
+<odoo>
+    <template id="delivery_time_slot" name="Delivery Time Slot" inherit_id="website_sale.delivery_form">
+        <xpath expr="//form[@id='o_delivery_form']" position="after">
+
+            <div id="schedule_delivery" style="display:none;">
+                <h4>Schedule Delivery Time</h4>
+                <div class="border-0" id="delivery_time">
+                    <ul class="list-group">
+                        <li class="list-group-item" id="wbl_date_group">
+                            <label class="col-form-label col-sm-auto s_website_form_label" for="date">
+                                <span class="s_website_form_label_content">Choose Date</span>
+                                <span class="wbl-error-star">*</span>
+                            </label>
+                            <input id="wbl_delivery_date" type="text" class="form-control" data-delivery-id=""
+                                   name="wbl_delivery_date"/>
+                            <span id="wbl-error-message-date"/>
+                        </li>
+                        <li class="list-group-item" id="wbl_slot_group" style="display:none;">
+                            <label class="col-form-label col-sm-auto s_website_form_label" for="date">
+                                <span class="s_website_form_label_content">Choose Slot</span>
+                                <span class="wbl-error-star">*</span>
+                            </label>
+                            <select id="wbl_delivery_slot" class="form-control" name="wbl_delivery_slot">
+                            </select>
+                            <span id="wbl-error-message-slot"/>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

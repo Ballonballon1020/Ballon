@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--# Author      : Weblytic Labs Pvt. Ltd. (<https://store.weblyticlabs.com/>)-->
+<!--# Copyright(c): 2023-Present Weblytic Labs Pvt. Ltd.-->
+<odoo>
+   <template id="sale_order_delivery_slot_info" name="Sale Order Delivery Slot Info" inherit_id="sale.sale_order_portal_content">
+       <xpath expr="//div[@id='customer_info']" position="after">
+           <div id="delivery_slot_info" class="col-12 col-lg-5 mb-4">
+               <span id="delivery_slot_info_title">
+                   <h5 class="mb-1">Delivery Information</h5>
+                   <hr class="my-0"/>
+               </span>
+               <table class="table table-borderless table-sm">
+                   <tbody style="white-space:nowrap" id="delivery_info_table">
+                       <tr>
+                           <th class="pb-0">Delivery Date:</th>
+                           <td class="w-100 pb-0 text-wrap"><span t-field="sale_order.delivery_date"/></td>
+                       </tr>
+                       <tr>
+                           <th class="pb-0">Delivery Slot:</th>
+                           <td class="w-100 pb-0 text-wrap"><span t-field="sale_order.delivery_slot"/></td>
+                       </tr>
+                   </tbody>
+               </table>
+           </div>
+       </xpath>
+   </template>
+</odoo>

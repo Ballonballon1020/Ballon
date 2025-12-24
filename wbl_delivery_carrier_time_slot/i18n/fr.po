@@ -1,0 +1,197 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* wbl_delivery_carrier_time_slot
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-04 19:55+0000\n"
+"PO-Revision-Date: 2025-11-04 19:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: wbl_delivery_carrier_time_slot
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.delivery_time_slot
+msgid ""
+"<span class=\"s_website_form_label_content\">Choose Date</span>\n"
+"                                <span class=\"wbl-error-star\">*</span>"
+msgstr "<span class=\"s_website_form_label_content\">Choisissez votre date</span>\n"
+
+#. module: wbl_delivery_carrier_time_slot
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.delivery_time_slot
+msgid ""
+"<span class=\"s_website_form_label_content\">Choose Slot</span>\n"
+"                                <span class=\"wbl-error-star\">*</span>"
+msgstr "<span class=\"s_website_form_label_content\">Choisissez votre créneau</span>\n"
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__close_time_hours
+msgid "Close Time (Hour)"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__close_time_minutes
+msgid "Close Time (Minute)"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model,website_form_label:wbl_delivery_carrier_time_slot.model_sale_order
+msgid "Créer Commande client"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__week_days
+msgid "Days"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__delivery_carrier_id
+msgid "Delivery Carrier"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_carrier__delivery_date
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_sale_order__delivery_date
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.wbl_sale_order_delivery_slot_info
+msgid "Delivery Date"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.sale_order_delivery_slot_info
+msgid "Delivery Date:"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.sale_order_delivery_slot_info
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.wbl_sale_order_delivery_slot_info
+msgid "Delivery Information"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_sale_order__delivery_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_stock_picking__delivery_slot
+msgid "Delivery Slot"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.sale_order_delivery_slot_info
+msgid "Delivery Slot:"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model,name:wbl_delivery_carrier_time_slot.model_delivery_time_schedule
+msgid "Delivery Time Schedule"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_carrier__delivery_time_slot
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.view_delivery_carrier_time_slot_form
+msgid "Delivery Time Slot"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_carrier__display_name
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__display_name
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_sale_order__display_name
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_stock_picking__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.wbl_sale_order_delivery_slot_info
+msgid "Expected:"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_carrier__id
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__id
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_sale_order__id
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_stock_picking__id
+msgid "ID"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_carrier__max_order_in_a_slot
+msgid "Maximum Order in Single Slot"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__open_time_hours
+msgid "Open Time (Hour)"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_time_schedule__open_time_minutes
+msgid "Open Time (Minute)"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_carrier__order_preparation_time
+msgid "Order Preparation Time"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model,name:wbl_delivery_carrier_time_slot.model_sale_order
+msgid "Sale Order"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.delivery_time_slot
+msgid "Schedule Delivery Time"
+msgstr "Choisissez votre date de livraison"
+
+#. module: wbl_delivery_carrier_time_slot
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.wbl_sale_order_delivery_slot_info
+msgid "Shipping"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model,name:wbl_delivery_carrier_time_slot.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_carrier__start_day_after
+msgid "Start After (x) Days"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_carrier__time_interval
+msgid "Time Interval (Minutes)"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model.fields,field_description:wbl_delivery_carrier_time_slot.field_delivery_carrier__time_schedule
+#: model_terms:ir.ui.view,arch_db:wbl_delivery_carrier_time_slot.view_delivery_carrier_time_slot_form
+msgid "Time Schedule"
+msgstr ""
+
+#. module: wbl_delivery_carrier_time_slot
+#: model:ir.model,name:wbl_delivery_carrier_time_slot.model_stock_picking
+msgid "Transfer"
+msgstr ""
